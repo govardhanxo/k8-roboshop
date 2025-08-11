@@ -42,7 +42,7 @@ spec:
         image: govardhanxo/catalogue:v1
         envFrom: 
         - configMapRef:
-            name: pod-config 
+            name: catalogue 
 ---
 apiVersion: v1
 kind: Service
